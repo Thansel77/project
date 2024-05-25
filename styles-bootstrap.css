@@ -1,0 +1,123 @@
+.btn{
+    border-radius: 0;
+}
+
+body {
+    background-color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    min-width: 275px;
+    
+}
+h1 {
+    background-color: orange;
+}
+
+.page-header {
+    height: 55px;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.menu,
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-item{
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: normal;
+}
+
+.social .icon {
+    height: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.main-section{
+    text-transform: uppercase;
+    font-size: x-large;
+    justify-content: center;
+}
+.main-banner{
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25)),
+            
+        url(Pizza-partyFT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-banner-title{
+    text-transform: uppercase;
+    font-weight: 300px;
+    font-size: calc(2rem + 2vw);
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(236, 229, 229, 0.993);
+}
+
+.tagline,
+.section-title{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: small;
+    text-transform: capitalize;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+
+.column-heading{
+    font-size: x-large;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    margin: center;
+}
+
+.testimonial-quote {
+    font-size: medium;
+    font-style: italic;
+    font-weight: 400;
+    margin: auto;
+}
+
+.fixed-link-circle {
+    display: flex;
+    font-size: small;
+    border-radius: 50%;
+    box-shadow: inset;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: fixed;
+    bottom: auto;
+    background-color: whitesmoke;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.fixed-link-circle.right{
+    left: 2rem;
+    display: none;
+}
+
+.fixed-link-circle.left{
+    left: 2rem;
+}
